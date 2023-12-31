@@ -1,0 +1,34 @@
+.service_container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.service_container > h1 {
+    font-weight: normal;
+    font-size: clamp(20px,3vw,30px);
+    padding-top: 15px;
+}
+
+.serviceCards_container {
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 10px;
+    column-gap: 12px;
+    margin-top: 15px;
+}
+
+.serviceCards_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.10) 0 2px 5px;
+    border-radius: 5px;
+}
+
+.serviceCards_card > h1 {
+    font-size: 16px;
+    font-weight: normal;
+}

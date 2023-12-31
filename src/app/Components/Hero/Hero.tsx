@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className={hero.hero_container}>
       <div className={hero.heroImg_container}>
-        <Image src={hero_bg} alt="Hero" fill className={hero.bg_img} quality={90} priority={true}/>
+        <Image src={hero_bg} alt="Hero" fill className={hero.bg_img} quality={100} placeholder="blur" priority={true}/>
         {/*Content*/}
       </div>
       <div className={hero.content_container}>

@@ -1,7 +1,7 @@
 .hero_container {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 65vh;
 }
 .heroImg_container{
     position: absolute;
@@ -9,7 +9,6 @@
     z-index: -1;
     width: 100%;
     height: 100%;
-    background-color: aqua;
 }
 
 .bg_img {
@@ -23,7 +22,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.58);
 }
 
 .content_cta_container {
