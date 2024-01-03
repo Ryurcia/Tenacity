@@ -2,7 +2,7 @@ import Image, {StaticImageData} from "next/image";
 import banner from "./banner.module.css";
 import banner1 from "@Public/assets/banner1.jpg";
 
-export const Banner = ({img, heading,content}: {img:StaticImageData,heading:string,content:string}) => {
+const Banner = ({img, heading,content}: {img:StaticImageData,heading:string,content:string}) => {
   return (
     <div className={banner.banner_container}>
       <div className={banner.bannerImg_container}>
@@ -17,3 +17,5 @@ export const Banner = ({img, heading,content}: {img:StaticImageData,heading:stri
     </div>
   )
 }
+
+export default Banner

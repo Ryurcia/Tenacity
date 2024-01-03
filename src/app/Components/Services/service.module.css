@@ -4,7 +4,7 @@
 }
 
 .service_container > h1 {
-    font-weight: normal;
+    font-weight: bold;
     font-size: clamp(20px,3vw,30px);
     padding-top: 15px;
 }
@@ -17,18 +17,48 @@
     row-gap: 10px;
     column-gap: 12px;
     margin-top: 15px;
+    padding: 10px 10px;
 }
 
 .serviceCards_card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.10) 0 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.31) 1px 1px 5px;
     border-radius: 5px;
 }
 
 .serviceCards_card > h1 {
-    font-size: 16px;
-    font-weight: normal;
+    font-size: clamp(20px,2vw,25px);
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .service_container {
+        width: 80%;
+    }
+    .serviceCards_container {
+        height: 500px;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+    .serviceCards_container {
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: none;
+        height: 200px;
+        column-gap: 20px;
+    }
+}
+
+@media  screen and (min-width: 1080px) {
+    .serviceCards_container {
+        height: 300px;
+        column-gap: 20px;
+    }
 }
