@@ -37,7 +37,7 @@ const Work = () => {
         {images.map((imgObj: image) => {
           return (
             <div className={work.work_img_container} key={`img_${imgObj.desc}`}>
-              <Image className={work.image} src={imgObj.img} alt="project_img" fill />
+              <Image className={work.image} src={imgObj.img} alt="project_img" fill sizes="100vw"/>
             </div>
           )
         })}
