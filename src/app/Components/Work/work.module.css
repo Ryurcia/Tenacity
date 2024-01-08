@@ -46,7 +46,7 @@
 }
 
 /*4k Screen*/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 2560px) {
     .work_img {
         height: 1000px;
     }
