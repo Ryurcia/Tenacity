@@ -6,7 +6,7 @@ const Banner = ({img, heading,content}: {img:StaticImageData,heading:string,cont
   return (
     <div className={banner.banner_container}>
       <div className={banner.bannerImg_container}>
-        <Image className={banner.bannerImg} src={banner1} alt="Banner" fill quality={80}/>
+        <Image className={banner.bannerImg} src={img} alt="Banner" fill quality={80}/>
       </div>
       <div className={banner.bannerContent_container}>
         <div className={banner.bannerContent}>
